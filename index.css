@@ -1,0 +1,296 @@
+ * {
+     margin: 0px;
+     padding: 0px;
+ }
+
+ .reg {
+     width: 100%;
+     background-color: rgb(154, 154, 243);
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+
+
+
+
+ .container {
+     width: 60%;
+     height: 555px;
+     border-radius: 10px;
+     margin: auto;
+     position: relative;
+     display: flex;
+
+ }
+
+
+ .form {
+     width: 50%;
+     height: 555px;
+     background-color: white;
+     border-bottom-left-radius: 10px;
+     border-top-left-radius: 10px;
+ }
+
+ h1 {
+     font-size: 20px;
+     color: rgb(116, 116, 252);
+     font-family: sans-serif;
+     position: relative;
+     left: 40px;
+     padding-top: 45px;
+     font-weight: 200;
+
+ }
+
+ .sel {
+     padding: 10px;
+     width: 261px;
+     color: gray;
+     border-bottom: 1px solid rgb(164, 161, 161);
+     border-top: none;
+     border-left: none;
+     border-right: none;
+     margin: 15px;
+     position: relative;
+     left: 25px;
+     font-size: 15px;
+     outline: none;
+ }
+
+
+ #first,
+ #last {
+     padding: 10px;
+     color: gray;
+     border-bottom: 1px solid rgb(164, 161, 161);
+     border-top: none;
+     border-left: none;
+     border-right: none;
+     width: 109px;
+     position: relative;
+     left: 40px;
+     outline: none;
+
+ }
+
+ #com {
+     width: 244px;
+     padding: 10px;
+     color: gray;
+     border-bottom: 1px solid rgb(164, 161, 161);
+     border-top: none;
+     border-left: none;
+     border-right: none;
+     position: relative;
+     left: 40px;
+     outline: none;
+
+ }
+
+
+ .bus {
+     padding: 10px;
+     color: gray;
+     border-bottom: 1px solid rgb(164, 161, 161);
+     border-top: none;
+     border-left: none;
+     border-right: none;
+     width: 120px;
+     position: relative;
+     left: 40px;
+     top: 13px;
+     outline: none;
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+ .right {
+     width: 50%;
+     height: 555px;
+     background-color: rgb(62, 62, 204);
+     border-bottom-right-radius: 10px;
+     border-top-right-radius: 10px;
+     color: white;
+
+ }
+
+ .co {
+     font-size: 20px;
+     color: white;
+     font-family: sans-serif;
+     position: relative;
+     left: 40px;
+     padding-top: 45px;
+     font-weight: 200;
+ }
+
+ #st {
+     padding: 10px;
+     width: 264px;
+     color: white;
+     border-bottom: 1px solid white;
+     border-top: none;
+     border-left: none;
+     border-right: none;
+     margin: 15px;
+     position: relative;
+     left: 25px;
+     background-color: transparent;
+     outline: none;
+
+ }
+
+ #st::placeholder{
+    color: white;
+ }
+
+ #ad {
+     padding: 10px;
+     color: white;
+     border-bottom: 1px solid white;
+     border-top: none;
+     border-left: none;
+     border-right: none;
+     width: 264px;
+     position: relative;
+     left: 40px;
+     background-color: transparent;
+     outline: none;
+ }
+
+ #ad::placeholder{
+    color: white;
+ }
+
+ .zi {
+     padding: 10px;
+     color: white;
+     border-bottom: 1px solid white;
+     border-top: none;
+     border-left: none;
+     border-right: none;
+     width: 130px;
+     position: relative;
+     left: 40px;
+     top: 20px;
+     background-color: transparent;
+     outline: none;
+ }
+
+ .zi::placeholder{
+    color: white;
+ }
+
+ .cou {
+     width: 285px;
+     padding: 10px;
+     color: white;
+     border-bottom: 1px solid white;
+     border-top: none;
+     border-left: none;
+     border-right: none;
+     position: relative;
+     left: 40px;
+     top: 33px;
+     background-color: transparent;
+     outline: none;
+
+
+
+ }
+
+ .ph {
+     padding: 10px;
+     color: white;
+     border-bottom: 1px solid white;
+     border-top: none;
+     border-left: none;
+     border-right: none;
+     width: 130px;
+     position: relative;
+     left: 40px;
+     top: 47px;
+     background-color: transparent;
+     outline: none;
+ }
+
+
+ .ph::placeholder{
+    color: white;
+ }
+
+ #email {
+     padding: 10px;
+     color: white;
+     width: 264px;
+     border-bottom: 1px solid white;
+     border-top: none;
+     border-left: none;
+     border-right: none;
+     position: relative;
+     left: 40px;
+     top: 57px;
+     background-color: transparent;
+     outline: none;
+ }
+
+ #email::placeholder{
+    color: white;
+ }
+
+ .teac {
+     display: flex;
+     flex-direction: row;
+     position: relative;
+     left: 40px;
+     top: 87px;
+     color: white;
+     gap: 10px;
+     font-family: sans-serif;
+   
+ }
+
+ .term{
+    text-decoration: underline;
+ }
+
+ 
+
+ .site {
+     display: flex;
+     flex-direction: row;
+     position: relative;
+     left: 63px;
+     top: 87px;
+     color: white;
+     font-family: sans-serif;
+    
+ }
+
+ button{
+    background-color: white;
+    border: none;
+    width: 135px;
+    height: 40px;
+    color: black;
+    border-radius: 50px;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    top: 25%;
+    position: relative;
+    left: 40px;
+ }
